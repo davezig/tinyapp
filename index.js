@@ -13,7 +13,11 @@ const moveLeft = () => {
 };
 
 // use the moveRight function on the >
-const clickRight
+const clickRight = () => {
+  let rightApp = moveRight();
+  currentApp.innerHTML = rightApp[0]
+
+}
 
 // use the moveLeft function on the >
 const clickLeft

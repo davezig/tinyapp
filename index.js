@@ -15,9 +15,13 @@ const moveLeft = () => {
 // use the moveRight function on the >
 const clickRight = () => {
   let rightApp = moveRight();
-  currentApp.innerHTML = rightApp[0]
-
-}
+  currentApp.innerHTML = rightApp[0];
+};
 
 // use the moveLeft function on the >
-const clickLeft
+const clickLeft = () => {
+  let leftApp = moveLeft();
+  currentApp.innerHTML = leftApp[0];
+};
+
+document.getElementById('button-left').onclick = clickLeft;

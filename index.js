@@ -24,4 +24,5 @@ const clickLeft = () => {
   currentApp.innerHTML = leftApp[0];
 };
 
-document.getElementById('button-left').onclick = clickLeft;
+// document.getElementById('button-left').onclick = clickLeft;
+document.getElementById('button-right').onclick = clickLeft;

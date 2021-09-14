@@ -11,3 +11,9 @@ const moveRight = () => {
 const moveLeft = () => {
   apps.unshift(apps.pop());
 };
+
+// use the moveRight function on the >
+const clickRight
+
+// use the moveLeft function on the >
+const clickLeft

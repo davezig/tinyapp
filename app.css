@@ -1,0 +1,17 @@
+.diagonal-box {
+  border: 1px solid red;
+  box-sizing: border-box;
+}
+
+.container header {
+  font-family: 'DM Sans', sans-serif;
+  justify-content: space-between;
+  padding: 0 1rem;
+}
+
+.container > * {
+  font-family: 'Audiowide', cursive;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
